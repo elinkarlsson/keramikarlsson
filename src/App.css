@@ -7,9 +7,11 @@
   --border-radius: 5px;
   --spacing: 10px;
   --spacing-xl: 20px;
+  --btn-color: #195258;
 }
 
-html, body {
+html,
+body {
   margin: 0px;
   height: 100%;
   font-size: 18px;
@@ -52,7 +54,7 @@ a {
 }
 
 .app {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: var(--first-backgrund);
   padding-top: var(--spacing);
 }
@@ -60,7 +62,7 @@ a {
 .main {
   height: 100%;
   width: 100%;
-  background-color: var(--second-backgrund);;
+  background-color: var(--second-backgrund);
 }
 
 .row {
@@ -88,12 +90,11 @@ a {
     padding-right: 50px;
     padding-bottom: 50px;
   }
-  
+
   .row > .column:first-child {
     padding-left: 50px;
   }
 }
-
 
 @media screen and (max-width: 700px) {
   .row {
@@ -105,7 +106,7 @@ a {
     padding-left: 20px;
     padding-bottom: 20px;
   }
-  
+
   .row > .column:first-child {
     padding-left: 20px;
   }

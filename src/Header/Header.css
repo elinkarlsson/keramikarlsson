@@ -1,10 +1,10 @@
 .container {
-  padding:0 var(--spacing) var(--spacing) var(--spacing);
+  padding: 0 var(--spacing) var(--spacing) var(--spacing);
 }
 
 .header {
   padding: 30px;
-  background: var(--second-backgrund);;
+  background: var(--second-backgrund);
   display: flex;
   align-items: center;
 }
@@ -50,7 +50,7 @@
   .nav-link--left {
     float: none;
   }
-  
+
   .nav-link--right {
     float: none;
   }

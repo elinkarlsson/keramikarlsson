@@ -16,7 +16,7 @@
 
 .product-image-list {
   display: flex;
-  width: 100%
+  width: 100%;
 }
 
 .product-image-wrapper {
@@ -30,7 +30,7 @@
 
 .product-right-box {
   width: 50%;
-  padding: var(--spacing) var(--spacing) var(--spacing) var( --spacing-xl);
+  padding: var(--spacing) var(--spacing) var(--spacing) var(--spacing-xl);
 }
 
 @media screen and (max-width: 700px) {
