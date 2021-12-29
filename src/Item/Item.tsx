@@ -12,10 +12,10 @@ export default function Item() {
     );
   }
 
-  const imgPath1 = "../src/assets/" + product.image[0];
-  const imgPath2 = "../src/assets/" + (product.image.length > 1 ? product.image[1] : product.image[0]);
-  const imgPath3 = "../src/assets/" + (product.image.length > 2 ? product.image[2] : product.image[0]);
-  const imgPath4 = "../src/assets/" + (product.image.length > 3 ? product.image[3] : product.image[0]);
+  const imgPath1 = product.image[0];
+  const imgPath2 = (product.image.length > 1 ? product.image[1] : product.image[0]);
+  const imgPath3 = (product.image.length > 2 ? product.image[2] : product.image[0]);
+  const imgPath4 = (product.image.length > 3 ? product.image[3] : product.image[0]);
   return (
     <div className="product-page">
       <div className="product-container">
