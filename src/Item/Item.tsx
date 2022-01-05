@@ -1,5 +1,5 @@
 import './Item.css'
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { getProduct } from '../Data/Data.Service';
 
 export default function Item() {
@@ -8,7 +8,10 @@ export default function Item() {
 
   if (!product) {
     return (
-      <div>Produkten kunde inte hittas.</div>
+      <div className="product-page">
+        <p>Produkten kunde inte hittas. Den kan vara borttagen eller flyttad.</p>
+        Gå tillbaka till: <Link to="/shop">Shop</Link>
+      </div>
     );
   }
 
