@@ -1,6 +1,7 @@
 import './Contact.css'
 
 export default function Contact() {
+  document.title = 'Kontakt - KeramiKarlsson';
   return (
     <div className="contact-page">
       <div className="row">

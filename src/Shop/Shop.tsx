@@ -5,6 +5,7 @@ import './Shop.css'
 import ShopProduct from './Shop.Product';
 
 export default function Shop() {
+  document.title = 'Shop - KeramiKarlsson';
   const { category } = useParams() as any;
   const categories = getCategories();
   const initialValue = categories.find(x => x.toLowerCase() == category?.toLowerCase()) ?? "Visa alla";

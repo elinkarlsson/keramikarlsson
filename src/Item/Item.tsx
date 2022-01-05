@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { getProduct } from '../Data/Data.Service';
 
 export default function Item() {
+  document.title = 'Produkt - KeramiKarlsson';
   const { id } = useParams() as any;
   const product = getProduct(id);
 
