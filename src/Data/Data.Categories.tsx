@@ -1,1 +1,1 @@
-export const categories = ["Fat", "Koppar", "Skulpturer", "Skålar", "Vaser"] as string[];
+export const categories = ["Visa alla", "Fat", "Koppar", "Skulpturer", "Skålar", "Vaser"] as string[];

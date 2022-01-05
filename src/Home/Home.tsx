@@ -27,7 +27,7 @@ export default function Home() {
             </Link>
           </div>
           <div className='home-gallery__col-3'>
-            <Link to="/shop/vaser" className="home-gallery__link">
+            <Link to="/shop/fat" className="home-gallery__link">
               <img width="600" src={imgVas} className="home-gallery__img" />
               <div className="home-gallery__middle">
                 <div className="home-gallery__text">Fat</div>
@@ -45,7 +45,7 @@ export default function Home() {
             </Link>
           </div>
           <div className='home-gallery__col-2'>
-            <Link to="/shop/skuplturer" className="home-gallery__link">
+            <Link to="/shop/skulpturer" className="home-gallery__link">
               <img width="600" src={imgVasSt} className="home-gallery__img" />
               <div className="home-gallery__middle">
                 <div className="home-gallery__text">Skulpturer</div>
