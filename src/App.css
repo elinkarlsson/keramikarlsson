@@ -1,6 +1,4 @@
 :root {
-  --footer-height: 58px;
-  --footer-height-neg: -58px;
   --first-backgrund: #e9f0e9;
   /* --first-backgrund: #f1f1f1; d3dcd2 */
   --second-backgrund: white;
@@ -20,28 +18,12 @@ body {
   background: var(--first-backgrund);
 }
 
-.wrapper {
-  min-height: 100%;
-  margin-bottom: var(--footer-height-neg);
-}
-.push {
-  height: var(--footer-height);
+.wrapper, #root, .app, .main {
+  height: 100%;
 }
 
-footer {
-  height: var(--footer-height);
-  background: var(--second-backgrund);
-}
-
-.footer-container {
-  padding: var(--spacing);
-  border-bottom: var(--spacing) solid var(--first-backgrund);
-  border-right: var(--spacing) solid var(--first-backgrund);
-  border-left: var(--spacing) solid var(--first-backgrund);
-}
-
-.footer-container img {
-  vertical-align: bottom;
+.container-main {
+  height: calc(100% - 118px);
 }
 
 h1 {
@@ -60,8 +42,8 @@ a {
 }
 
 .main {
-  height: 100%;
   width: 100%;
+  overflow: auto;
   background-color: var(--second-backgrund);
 }
 

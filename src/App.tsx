@@ -16,7 +16,7 @@ export default function App() {
     <BrowserRouter>
       <div className="app">
         <Header />
-        <div className="container">
+        <div className="container container-main">
           <div className="main">
             <Switch>
               <Route exact path="/">
