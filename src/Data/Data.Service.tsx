@@ -1,6 +1,5 @@
 import { categories } from "./Data.Categories";
 import { products } from "./Data.Products";
-import { Product } from "./Product.Model";
 
 export const getProducts = () => products;
 

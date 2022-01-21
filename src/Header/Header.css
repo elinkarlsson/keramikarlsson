@@ -9,6 +9,28 @@
   align-items: center;
 }
 
+.color-1 {
+  color: #d5896f;
+}
+.color-2 {
+  color: #70a288;
+}
+.color-3 {
+  color: #d5896f;
+}
+.color-4 {
+  color: #70a288;
+}
+.color-5 {
+  color: #d5896f;
+}
+.color-6 {
+  color: #70a288;
+}
+.color-7 {
+  color: black;
+}
+
 .header-link {
   text-decoration: none;
   padding-right: 50px;
@@ -16,7 +38,20 @@
 
 .header-logo {
   margin-top: 0;
+  font-weight: normal;
+  font-size: 40px;
   margin-bottom: 0;
+  /* font-family: 'Aladin', cursive; */
+  /* font-family: 'Chela One', cursive; */
+  font-family: 'Concert One', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+  /* font-family: 'Kavoon', cursive; */
+  /* font-family: 'Macondo Swash Caps', cursive; */
+  /* font-family: 'Monofett', cursive; */
+  /* font-family: 'Original Surfer', cursive; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Salsa', cursive; */
+  /* font-family: 'Spicy Rice', cursive; */
 }
 
 .nav {
