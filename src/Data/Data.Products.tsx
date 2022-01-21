@@ -46,7 +46,7 @@ export const products = [
   {
     id: 3,
     name: "Liten vas",
-    price: 250,
+    price: 100,
     image: [imgMiniVas1],
     imageAlt: "Liten vas i vitt.",
     description: "",
@@ -56,7 +56,7 @@ export const products = [
   {
     id: 4,
     name: "Taggig skål",
-    price: 500,
+    price: 400,
     image: [imgTaggig],
     imageAlt: "Taggig skål, vit.",
     description: "",
@@ -66,7 +66,7 @@ export const products = [
   {
     id: 5,
     name: "Vas",
-    price: 200,
+    price: 400,
     image: [imgVas1],
     imageAlt: "Vas",
     description: "",
@@ -106,7 +106,7 @@ export const products = [
   {
     id: 9,
     name: "Platt fat",
-    price: 300,
+    price: 250,
     image: [imgPlattFat1, imgPlattFat2, imgPlattFat3, imgPlattFat4],
     imageAlt: "Platt fat, vitt och svart.",
     description: "Platt avlångt fat i vit stengodslera med lavafläckar. Vit glasyr med svarta/blå fläckar.",
