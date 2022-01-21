@@ -1,8 +1,8 @@
 import './App.css'
 import {
-  BrowserRouter,
   Switch,
   Route,
+  HashRouter,
 } from "react-router-dom";
 import Header from './Header/Header';
 import Home from './Home/Home';
@@ -13,7 +13,7 @@ import NotFound from './NotFound/NotFound';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <Header />
         <div className="container container-main">
@@ -38,6 +38,6 @@ export default function App() {
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
