@@ -1,3 +1,14 @@
 .contact-page {
   padding-top: 50px;
 }
+
+.material-icons {
+  vertical-align: text-bottom;
+  margin-right: 5px;
+}
+
+.instagram-icon {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
