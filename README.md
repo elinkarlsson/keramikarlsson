@@ -1,12 +1,7 @@
-keramikarlsson
+keramikarlsson - https://www.keramikarlsson.se/
 
-**Skapa nytt projekt**
-npm init vite
-cd app
-npm install
+This is a small application for showing my ceramics, it is built with React + Vite. 
 
-**Köra projektet**
-npm run dev
-
-**Bygge och deploy**
-Pusha till git
+**Get started**  
+npm install  
+npm run dev  
