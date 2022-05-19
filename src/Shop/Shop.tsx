@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getCategories, getProducts, getProductsByCategory } from '../Data/Data.Service';
+import { getCategories, getProductsByCategory } from '../Data/Data.Service';
 import './Shop.css'
 import ShopProduct from './Shop.Product';
 

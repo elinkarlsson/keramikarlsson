@@ -1,11 +1,17 @@
 import './Item.css'
 import { Link, useParams } from "react-router-dom";
 import { getProduct } from '../Data/Data.Service';
+import { useState } from 'react';
+import React from 'react';
+import { UserContext } from '../Store/Contexts';
 
 export default function Item() {
   document.title = 'Produkt - KeramiKarlsson';
   const { id } = useParams() as any;
   const product = getProduct(id);
+
+
+  const [state, dispatch] = React.useContext(UserContext)
 
   if (!product) {
     return (
@@ -52,7 +58,12 @@ export default function Item() {
             <div>
               {product.available ? "Finns i lager" : "Slutsåld"}
             </div>
+            <div className="buttons">
+              <button className="btn btn-block" onClick={() => dispatch({ type: "add_to_cart", payload: {product: product} })}>Lägg till</button>
+              <button className="btn btn-block">Spara</button>
+            </div>
             <div>
+              <h2>Beskrivning</h2>
               {product.description}
             </div>
             <div>

@@ -2,8 +2,12 @@ import './Header.css'
 import {
   NavLink
 } from "react-router-dom";
+import React from 'react';
+import { UserContext } from '../Store/Contexts';
+import cartIcon from '../assets/icons/cart-shopping-solid.svg'
 
 export default function Header() {
+  const [state, dispatch] = React.useContext(UserContext);
   return (
     <div className="container">
       <div className="header">
@@ -21,6 +25,19 @@ export default function Header() {
         <div className="nav">
           <NavLink className="nav-link nav-link--left" to="/shop" activeClassName='is-active'>Shop</NavLink>
           <NavLink className="nav-link nav-link--left" to="/kontakt" activeClassName='is-active'>Kontakt</NavLink>
+          <NavLink className="nav-link nav-link--left" to="/varukorg" activeClassName='is-active'>
+            Varukorg
+            
+              <div className='pos-rel'>
+                <img className='icon' src={cartIcon} />
+                {state.cart.products.length > 0 ?
+                <div className="circle">
+                  <span className="circle__content">{state.cart.products.length}</span>
+                </div>
+                : ''}
+              </div>
+
+          </NavLink>
           <a className="nav-link nav-link--right" href="https://www.instagram.com/keramikarlsson/" target="_blank">Instagram</a>
         </div>
       </div>

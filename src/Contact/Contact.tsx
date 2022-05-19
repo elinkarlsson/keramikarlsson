@@ -19,7 +19,7 @@ export default function Contact() {
         </div>
         <div className="column">
           <h2>Följ</h2>
-          <a href="https://www.instagram.com/keramikarlsson/" target="_blank"><img className='instagram-icon' src={instagramIcon} />Instagram</a>
+          <a href="https://www.instagram.com/keramikarlsson/" target="_blank"><img className='icon' src={instagramIcon} />Instagram</a>
         </div>
       </div>
     </div>);

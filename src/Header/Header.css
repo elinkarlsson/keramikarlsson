@@ -68,7 +68,7 @@
   text-underline-offset: 3.61011px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
   .header {
     display: block;
   }
@@ -79,4 +79,37 @@
   .nav-link--right {
     float: none;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .header-logo {
+    font-size: 30px;
+  }
+}
+
+.pos-rel{
+  display: inline;
+  position: relative;
+  margin-left: 10px;
+}
+
+.circle {
+  display: inline-table;
+  vertical-align: middle;
+  width: 23px;
+  height: 23px;
+  
+  background-color: rgb(225, 166, 166);
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.circle__content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1;
 }
