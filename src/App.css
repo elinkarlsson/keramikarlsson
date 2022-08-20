@@ -1,11 +1,17 @@
 :root {
-  --first-backgrund: #e9f0e9;
-  /* --first-backgrund: #f1f1f1; d3dcd2 */
-  --second-backgrund: white;
+  --backgrund: #f8f3ea;
+  /* #fff2d4;*/
+  --backgrund2: #a26769;
+  /* #e22028; #2a8ea9;*/
+  --backgrund3: #6d2e46;
+  /*#e22028; #d93690; */
   --border-radius: 5px;
   --spacing: 10px;
   --spacing-xl: 20px;
-  --btn-color: #195258;
+  --btn-color: #6d2e46;
+  /*#195258;*/
+  --btn-color2: #fcfaf7;
+  /*#195258;*/
 }
 
 html,
@@ -14,16 +20,14 @@ body {
   height: 100%;
   font-size: 18px;
   line-height: 28px;
-  background-color: cadetblue;
-  background: var(--first-backgrund);
+  background-color: var(--backgrund);
 }
 
-.wrapper, #root, .app, .main {
+.wrapper,
+#root,
+.app,
+.main {
   height: 100%;
-}
-
-.container-main {
-  height: calc(100% - 118px);
 }
 
 h1 {
@@ -35,16 +39,31 @@ a {
   text-underline-offset: 3.61011px;
 }
 
+p {
+  max-width: 640px;
+}
+
+.margin-b-0 {
+  margin-bottom: 0;
+}
+
+.margin-t-0 {
+  margin-top: 0;
+}
+
 .app {
   font-family: 'Raleway', sans-serif;
-  background: var(--first-backgrund);
-  padding-top: var(--spacing);
 }
 
 .main {
   width: 100%;
-  overflow: auto;
-  background-color: var(--second-backgrund);
+  padding-top: 108px;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    padding-top: 164px;
+  }
 }
 
 .row {
@@ -60,10 +79,9 @@ a {
   flex-basis: 100%;
   flex: 1;
   padding-right: 100px;
-  padding-bottom: 100px;
 }
 
-.row > .column:first-child {
+.row>.column:first-child {
   padding-left: 100px;
 }
 
@@ -73,7 +91,7 @@ a {
     padding-bottom: 50px;
   }
 
-  .row > .column:first-child {
+  .row>.column:first-child {
     padding-left: 50px;
   }
 }
@@ -89,7 +107,7 @@ a {
     padding-bottom: 20px;
   }
 
-  .row > .column:first-child {
+  .row>.column:first-child {
     padding-left: 20px;
   }
 }

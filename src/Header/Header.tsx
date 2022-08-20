@@ -5,7 +5,7 @@ import {
 
 export default function Header() {
   return (
-    <div className="container">
+    <header>
       <div className="header">
         <a href="/" className="header-link">
           <h1 className="header-logo">
@@ -24,6 +24,6 @@ export default function Header() {
           <a className="nav-link nav-link--right" href="https://www.instagram.com/keramikarlsson/" target="_blank">Instagram</a>
         </div>
       </div>
-    </div>
+    </header>
   )
 }

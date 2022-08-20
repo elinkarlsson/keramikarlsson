@@ -57,7 +57,7 @@ export default function Item() {
             </div>
             <div>
               <h2>Intresserad av att köpa?</h2>
-              <p>Kontakta mig på mail elin.karlsson.92@hotmail.com eller via sms till telefon 0703294590 om du är intresserad av att köpa. Betalning sker via Swish och produkten skickas på posten inom 2 dagar efter betalning.</p>
+              <p>Kontakta mig på mail elin@kodochkonst.se eller via sms till telefon 0703294590 om du är intresserad av att köpa. Betalning sker via Swish och produkten skickas på posten inom 2 dagar efter betalning.</p>
             </div>
           </div>
         </div>
