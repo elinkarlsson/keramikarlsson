@@ -1,17 +1,12 @@
 :root {
   --backgrund: #f8f3ea;
-  /* #fff2d4;*/
   --backgrund2: #a26769;
-  /* #e22028; #2a8ea9;*/
   --backgrund3: #6d2e46;
-  /*#e22028; #d93690; */
   --border-radius: 5px;
   --spacing: 10px;
   --spacing-xl: 20px;
   --btn-color: #6d2e46;
-  /*#195258;*/
   --btn-color2: #fcfaf7;
-  /*#195258;*/
 }
 
 html,
