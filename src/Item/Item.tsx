@@ -16,31 +16,14 @@ export default function Item() {
     );
   }
 
-  const imgPath1 = product.image[0];
-  const imgPath2 = (product.image.length > 1 ? product.image[1] : product.image[0]);
-  const imgPath3 = (product.image.length > 2 ? product.image[2] : product.image[0]);
-  const imgPath4 = (product.image.length > 3 ? product.image[3] : product.image[0]);
   return (
     <div className="product-page">
       <div className="product-container">
         <div className="product-left-box">
-          <div>
-            <div className="product-image-list">
-              <div className="product-image-wrapper">
-                <img src={imgPath1} className="product-image"></img>
-              </div>
-              <div className="product-image-wrapper">
-                <img src={imgPath2} className="product-image"></img>
-              </div>
-            </div>
-            <div className="product-image-list">
-              <div className="product-image-wrapper">
-                <img src={imgPath3} className="product-image"></img>
-              </div>
-              <div className="product-image-wrapper">
-                <img src={imgPath4} className="product-image"></img>
-              </div>
-            </div>
+          <div className='product-image-wrapper'>
+            {product.image.map(img => <div>
+              <img src={img} className="product-image"></img>
+            </div>)}
           </div>
         </div>
         <div className="product-right-box">

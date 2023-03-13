@@ -1,1 +1,0 @@
-export const categories = ["Visa alla", "Fat", "Koppar", "Prydnader", "Skålar", "Vaser"] as string[];
