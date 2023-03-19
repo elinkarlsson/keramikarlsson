@@ -5,3 +5,5 @@ This is a small application for showing my ceramics, it is built with React + Vi
 **Get started**  
 npm install  
 npm run dev  
+
+node version 16.16.0
