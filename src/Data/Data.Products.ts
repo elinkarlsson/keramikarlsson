@@ -108,7 +108,7 @@ export const products = [
   {
     id: 13,
     name: "Skål",
-    price: 300,
+    price: 350,
     image: [imgSkal, imgSkal2],
     description: "Skål i svart lera med bollar på kanten, glaserad i mörk klarblå glasyr.",
     dimensions: "Höjd: 7 cm, Diameter: 15 cm",
