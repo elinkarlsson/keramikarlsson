@@ -33,6 +33,10 @@ import imgFatHav from '../assets/fat-hav.jpeg'
 import imgFatHav1 from '../assets/fat-hav-1.jpeg'
 import imgFatHavLitet from '../assets/fat-hav-litet.jpeg'
 import imgFatLitetRosa from '../assets/fat-litet-rosa.jpeg'
+import imgLjuslykta6 from '../assets/ljuslykta-gron-6.jpeg'
+import imgLjuslykta2 from '../assets/ljuslykta-gron-2.jpeg'
+import imgLjuslykta3 from '../assets/ljuslykta-gron-3.jpeg'
+import imgLjuslykta4 from '../assets/ljuslykta-gron-4.jpg'
 
 export const products = [
   {
@@ -234,5 +238,15 @@ export const products = [
     dimensions: "Längd: 19 cm, Bredd: 9 cm.",
     available: 1,
     category: "Fat",
-  }
+  },
+  {
+    id: 26,
+    name: "Ljuslykta",
+    price: 120,
+    image: [imgLjuslykta4, imgLjuslykta6, imgLjuslykta2, imgLjuslykta3],
+    description: "Ljuslykta i vit lera med lavafläckar och grön/grå melerad glasyr.",
+    dimensions: "Höjd: 3.5 cm, Diameter: 7.5 cm",
+    available: 5,
+    category: "Prydnader",
+  },
 ] as Product[];
